@@ -2,11 +2,18 @@ h2{
     text-align: center;
 }
 p{
-    line-height: 100%;
+    line-height: 150%;
     text-indent: 30px;
     background-color: violet;
 }
+#first{
+    color: yellow;
+}
+.second{
+    color: purple;
+}
 body{
-    background-image: url("img/xxxx.jpg");
+    background-image: url("/img/xxxx.jpg");
+    font-size:large;
 
 }
