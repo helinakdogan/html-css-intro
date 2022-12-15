@@ -1,0 +1,31 @@
+p,h1,h2{
+    color: darkolivegreen;
+
+}
+
+h2.center{
+    text-align: center;
+}
+
+.style-table{
+    border: 2px solid darkviolet;
+    margin: 15px;
+}
+
+.style-table td, th{
+    border: 2px solid darkviolet;
+    padding: 10px;
+}
+
+.style-table th{
+    font-family: Lucida Bright;
+    color: indigo;
+    background-color: plum;
+    font-size: 15px;
+}
+
+.style-table td{
+    font-family: Futara;
+    background-color: thistle;
+
+}
