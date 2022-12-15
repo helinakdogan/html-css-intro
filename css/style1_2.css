@@ -1,0 +1,7 @@
+.background{
+
+    background: url("/img/marie.jpg") no-repeat right center fixed;
+}
+body{
+    background-image: url("/img/clouds1.png");
+}
