@@ -1,0 +1,11 @@
+.style-border{
+    border-style: solid;
+    padding: 15px;
+    border-color: red red darkred darkred;
+    border-width: 2px 3px 4px 5px;
+
+}
+
+p, h4{
+    background-color: rgb(232, 214, 215);
+}
