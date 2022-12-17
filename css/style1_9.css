@@ -1,0 +1,23 @@
+.special-text{
+    color: purple;
+    line-height: 25px;
+    
+
+}
+
+h2{
+    color: darkred;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    direction: ltr;
+    word spacing; 5px;
+    text-shadow: 5px 2px 1px pink;
+}
+
+.special-font{
+    font-family: Javanese Text;
+    font-size: 2em;
+    font-style: oblique;
+    font-weight: light;
+    font-variant: small-caps;
+}
