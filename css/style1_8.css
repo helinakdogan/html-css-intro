@@ -1,0 +1,22 @@
+.special-text{
+    color: purple;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: lowercase;
+    letter-spacing: 10px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
