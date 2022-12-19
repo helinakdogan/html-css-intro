@@ -1,0 +1,35 @@
+.special-table table, th, td{
+
+
+}
+
+.special-table{
+    width: 80%;
+    border-collapse: collapse;
+    
+}
+
+.special-table th, td{
+    height: 40px;
+    text-align: center;
+
+}
+
+.special-table tr{
+    vertical-align: text bottom;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.special-table tr:hover{
+    background-color: red;
+}
+
+.special-table th{
+    background-color: darkred;
+    color:white;
+}
+
+.special-table tr:nth-child(even){
+    background-color: #f1f1f1;
+}
