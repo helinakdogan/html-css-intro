@@ -1,0 +1,32 @@
+.sp-span{
+    border: 2px solid red;
+    margin: 5px;
+    display: block;
+    padding: 10px;
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+ul > li{
+    display: inline;
+}
+
+ul > li > a{
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+    margin: 5px;
+}
+
+ul > li > a:hover{
+    text-decoration: underline;
+    color: pink;
+    visibility: hidden;
+}
+
+.display{
+    visibility: none;
+}
