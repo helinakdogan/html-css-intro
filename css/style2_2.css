@@ -1,0 +1,22 @@
+.style-list-ul{
+    list-style: square outside;   
+    padding: 5px;
+}
+
+.style-list-ol{
+    list-style: lower-alpha inside;
+}
+
+.style-list-ul li:first-letter{
+    color: white;
+    font-size: 1.5em;
+    
+}
+
+.style-list-ul li{
+    margin: 5px;
+    padding: 5px;
+    background-color: limegreen;
+
+
+}
