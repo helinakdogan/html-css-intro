@@ -71,3 +71,21 @@ img{
 body{
     margin: 0;
 }
+
+.position{
+    position: static;
+    border: 2px solid purple;
+    background-color: thistle;
+    width: 50%;
+    padding: 15px;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 2px solid red;
+    width: 25%;
+    background-color: black;
+    color: yellow;
+}
