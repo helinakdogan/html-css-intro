@@ -1,0 +1,45 @@
+.main{
+    border: 3px solid darkred;
+    margin: 5px;
+    width: 70%;
+    height: 350px;
+    background-color:#B94366;
+    padding: 10px;
+
+}
+
+.main > .box{
+    border: 3px solid #3C1622;
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color:white;
+    margin: 30px;
+    padding: 15px;
+}
+
+.main > .box2{
+    border: 3px solid #3C1622;
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color:white;
+    margin: 30px;
+    padding: 15px;
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+
+.main > .box3{
+    border: 3px solid #3C1622;
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color:white;
+    margin: 30px;
+    padding: 15px;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
