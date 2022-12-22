@@ -1,0 +1,74 @@
+.special-link{
+    color: red;
+    text-decoration: none;
+}
+
+.special-link:visited{
+    color: black;
+}
+
+.special-link:hover{
+    color: pink;
+}
+
+.special-link:active{
+    color: green;
+}
+
+
+p{
+    background-color: lightblue;
+    padding: 10px;
+    width: 80%;
+    display: none;
+}
+
+div{
+    border: 3px solid royalblue;
+    padding: 5px;
+    width: 30%;
+    margin-top: 20px;
+}
+
+div:hover p{
+    display: block;
+}
+
+input{
+    border: 3px solid royalblue;
+    padding: 5px;
+    width: 30%;
+}
+
+input:focus{
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+}
+
+pre:first-child{
+    color: fuchsia;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
