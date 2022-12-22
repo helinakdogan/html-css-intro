@@ -1,0 +1,35 @@
+li:first-child b{
+    color: red;
+}
+
+p:lang(en){
+    background-color: darkgoldenrod;
+    padding: 10px;
+    color: white;
+}
+
+#check:checked{
+    height: 30px;
+    width: 30px;
+}
+
+input[type="password"]:disabled{
+    background-color: lightgray;
+    padding: 10px;
+    color: black;
+    width: 20%;
+}
+
+input[type="text"]:enabled{
+    background-color: #C9A9A6;
+    padding: 10px;
+    color: black;
+    width: 20%;
+}
+
+input[type="email"]:invalid{
+    border: 2px solid red;
+    padding: 10px;
+    color: black;
+    width: 20%;
+}
