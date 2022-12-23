@@ -1,0 +1,49 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #ccccb3;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+body{
+    margin: 0;
+}
+
+li{
+    border-bottom: 1px solid #0e0e3f;
+}
+
+li a{
+    display: block;
+    color: #2e2e1f;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Baskerville;
+}
+
+li a.active{
+    background-color: #2e2e1f;
+    color: white;
+}
+
+li a:hover:not(.active){
+    background-color: #7a7a52;
+    color: white;
+
+}
+
+div{
+    margin-left: 18%;
+    padding: 2px 5pxS;
+}
+
+body{
+    margin: 0;
+    background-image: url("/img/city.jpg");
+    background-size: cover;
+}
