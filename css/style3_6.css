@@ -1,0 +1,75 @@
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #303030;
+    top: 0;
+    width: 100%;
+
+}
+
+li{
+    float: left;
+    border-right: 1px solid white;
+
+}
+
+li:last-child{
+    border-left: 1px solid white;
+}
+
+li a, .dp-Btn{
+    color: white;
+    padding: 16px 16px;
+    display: block;
+    text-decoration: none;
+    font-family: Cambria;
+    font-size: 17px;
+}
+
+body{
+    margin: 0;
+    background-color:gainsboro;
+
+
+}
+
+a.active{
+    background-color: darkred;
+    color: white;
+}
+
+li a:hover, .dropdown:hover .dp-Btn {
+    background-color: #1B1B1B;
+    color: white;
+
+}
+
+div{
+    padding: 20px;
+}
+
+@media screen and (max-width:600px){
+    ul li{
+        float: none;
+    }
+}
+
+
+.dp-Content{
+    display:none;
+    position: absolute;
+    background-color: #303030;
+    z-index: 1;
+    box-shadow: 0 8px 16px 0 black;
+    padding:0;
+}
+
+.dropdown:hover .dp-Content{
+    display:block;
+}
+
+.dp-Content a:hover{
+    background-color: darkred;
+}
