@@ -1,0 +1,12 @@
+.pseudo::before{
+    content: '"';
+}
+
+.pseudo::after{
+    content: '"';
+}
+
+.pseudo::selection{
+    background-color:#FF69B4;
+    color:  #660033;
+}
