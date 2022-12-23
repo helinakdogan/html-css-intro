@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    background-image: url("/img/city.jpg");
+    background-size: cover;
+}
+
+.box{
+    background-color: #696969;
+    width: 90%;
+    height: 30px;
+    border: 1px solid white;
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 50px;
+    padding: 35px;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.text{
+    position: absolute;
+    font-size: 19px;
+    margin-top: 700px;
+    margin-left: 60px;
+    margin-right: 50px;
+    padding: 5px;
+    z-index: 2;
+    font-family: Times New Roman;
+}
