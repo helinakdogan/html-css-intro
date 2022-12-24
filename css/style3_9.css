@@ -1,0 +1,35 @@
+.gallery{
+    margin: 10px;
+    border: 1px solid lightgray;
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;
+    font-family: Segoe;
+
+}
+
+.gallery img{
+    width: 100%;
+}
+
+.gallery:hover{
+    border: 1px solid dimgray;
+    box-shadow: 0 8px 16px 0 dimgray;
+}
+
+
+a[title~=youtube]{
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+}
+
+p{
+    margin: 30px;
+}
