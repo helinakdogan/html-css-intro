@@ -1,0 +1,39 @@
+.tooltip{
+    position: relative;
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 100%;
+}
+
+input{
+    border: 2px solid gray;
+    width: 14%;
+    padding: 9px;
+}
+
+.tp-text{
+    background-color: #FF0066;
+    color: white;
+    padding: 9px 40px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    visibility: hidden;
+    left: 15%;
+}
+
+.tooltip:hover .tp-text{
+    visibility: visible;
+}
+
+.tp-text::after{
+    content: "";
+    position: absolute;
+    border-width: 8px; 
+    border-style: solid;
+    border-color: transparent #FF0066 transparent transparent;
+    right:100%;
+
+
+}
