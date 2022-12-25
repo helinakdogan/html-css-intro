@@ -1,0 +1,21 @@
+button[type="button"]{
+    width: 90%;
+    background-color: LightSteelBlue;
+    color: black;
+    padding: 15px 0;
+    margin-top: 15px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: wait;
+ 
+
+}
+
+button[type="button"]:hover{
+    background-color: SteelBlue;
+    color: black;
+}
+
+h2{
+    cursor: text;
+}
