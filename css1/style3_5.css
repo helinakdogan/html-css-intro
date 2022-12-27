@@ -58,3 +58,11 @@ li a:hover:not(.active) {
         float: none;
     }
 }
+
+.color1{
+    color: red;
+}
+
+.color2{
+    color:blue;
+}

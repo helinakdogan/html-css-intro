@@ -1,0 +1,43 @@
+
+.page-top{
+    background-color: gold;
+    padding: 15px;
+    text-align: center;
+    color: darkolive;
+
+}
+
+.page-left{
+    background-color: DarkSeaGreen;
+    text-align: justify;
+    color: darkolive;
+    width: 75%;
+    height: 400px;
+    float: left;
+
+}
+
+.page-right{
+    background-color: MediumAquamarine	;
+    text-align: justify;
+    color: darkolive;
+    width: 25%;
+    height: 400px;
+    float: right;
+
+}
+
+body{
+    margin: 0;
+}
+
+
+
+.page-left .left-content{
+    padding: 10px;
+
+}
+
+.page-left header{
+    padding: 5px;
+}
