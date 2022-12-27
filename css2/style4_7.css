@@ -1,0 +1,72 @@
+.page-top{
+    background-color: #C11F5A;
+    padding: 15px;
+    text-align: center;
+    color: darkolive;
+
+}
+
+.page-left{
+    background-color: #E8E8E8;
+    text-align: justify;
+    color: darkolive;
+    width: 75%;
+    height: 580px;
+    float: left;
+
+}
+
+.page-right{
+    background-color: DarkSlateGrey		;
+    text-align: justify;
+    color: darkolive;
+    width: 25%;
+    height: 580px;
+    float: right;
+
+}
+
+body{
+    margin: 0;
+}
+
+
+
+.page-left .left-content{
+    padding: 10px;
+
+}
+
+.page-left header{
+    padding: 5px;
+}
+
+.page-bottom{
+    background-color: #222924;
+    color: lightgray;
+    padding: 15px;
+    height: 40px;
+    clear: left;
+
+}
+
+.page-right a{
+    color: white;
+    text-decoration: none;
+}
+
+.page-right a:hover{
+    text-decoration: none;
+    color:DarkSeaGreen;
+}
+
+.page-right li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+aside h2{
+    text-align: center;
+    color: gold;
+}
+
