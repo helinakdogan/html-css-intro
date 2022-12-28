@@ -1,9 +1,14 @@
 .page-top{
-    background-color: #C11F5A;
+    background-color:black;
     padding: 15px;
     text-align: center;
-    color: darkolive;
+    color: DarkGoldenrod;
+    font-family:Garamond;
 
+}
+
+.page-top img{
+    float: left;
 }
 
 .page-left{
@@ -47,6 +52,7 @@ body{
     padding: 15px;
     height: 40px;
     clear: left;
+    text-align: center;
 
 }
 
