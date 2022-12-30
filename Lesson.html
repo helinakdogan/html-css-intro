@@ -2,7 +2,7 @@
 
 <head>
     <title> lesson 47 </title>
-    <link rel="stylesheet" type="text/css" href="css2/style5_0.css" />
+    <link rel="stylesheet" type="text/css" href="css2/style5_1.css" />
     <meta name="viewport" content="width:device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
@@ -39,17 +39,30 @@
 
     <section class="change">
         <header>
-            <h2>TITLE</h2>
+            <h3>This is header of change class.</h3>
         </header>
-        <figure>
-            <img src="/img/city.jpg" width="400" height="300">
-            <figcaption><time datetime="2022-12-30" pubdate="pubdate">LATEST NEWS</time></figcaption>
-        </figure>
-        <meter value="0.3"></meter>
+        <label>Loading...</label>
+        <progress max="100" value="0" id="load" style="width: 200px;"></progress>
+        <h3 id="result"></h3>
     </section>
 
     <footer class="page-bottom">&copy; All rights reserved.</footer>
 
+    <script>
+        var valueLoad=0;
+        progressBar(valueLoad);
+        function progressBar(valueLoad){
+            var bar=document.getElementById("load");
+            bar.value=valueLoad;
+            valueLoad++;
+
+            var loadTime=setTimeout("progressBar("+valueLoad+")", 50);
+            if(valueLoad > 100){
+                clearTimeout(loadTime);
+                document.getElementById("result").innerHTML="Download completed";
+            }
+        }
+    </script>
 </body>
 
 </html>
