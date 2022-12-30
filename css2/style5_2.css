@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: skyblue;
+    color: #232B60;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu ul{
+    background-color:SlateBlue;
+    padding: 15px;
+    margin:0;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+.menu a{
+    color: white;
+    size: 18px;
+    text-decoration: none;
+    padding: 15px;
+    font-family: Segoe;
+}
+
+.menu a:hover{
+    background-color:DarkSlateBlue;
+}
+
+.sidebar{
+    background-color:indigo;
+    padding: 7px;
+    color: white;
+    width: 21%;
+    height: 540px;
+    float: left;
+}
+
+.sidebar li{
+    list-style-type: none;
+    padding: 7px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar a:hover{
+    text-decoration: none;
+    color: Fuchsia;
+}
+
+.change{
+    background-color: thistle;
+    padding-left: 10px;
+    width: 77.4%;
+    float: right;
+    height: 554px;
+}
+
+.change header{
+    border-bottom: 1px solid dimgray;
+    margin-bottom: 20px;
+}
+
+.change footer{
+    border-top: 1px solid dimgray;
+    padding: 10px;
+    float: right;
+    color: MediumOrchid;
+}
+
+.page-bottom{
+    background-color:#8B568F;
+    padding: 15px;
+    height: 12px;
+    clear: left;
+    text-align: center;
+    color: white;
+}
+
+.change figure{
+    text-align: center;
+}
+
+.change figurecaption{
+    font-family: Lucida Grande;
+    color: black;
+    font-weight: bold;
+}
+
+#result{
+    color: green;
+}
+
+summary{
+    border-bottom: 1px solid gray;
+}
+
