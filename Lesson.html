@@ -2,7 +2,7 @@
 
 <head>
     <title> lesson 55 </title>
-    <link rel="stylesheet" type="text/css" href="css2/style5_5.css" />
+    <link rel="stylesheet" type="text/css" href="css2/style5_6.css" />
     <meta name="viewport" content="width:device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
@@ -63,23 +63,11 @@
                 <h3>This is header of change class.</h3>
             </header>
 
-            <form>
-                <input name="language" list="languages" />
-                <datalist id="languages">
-                    <option value="Java"></option>
-                    <option value="Javascript"></option>
-                    <option value="Python"></option>
-                    <option value="C++"></option>
-                    <option value="C#"></option>
-                </datalist>
-            </form>
-
-            <form oninput = "Calculate.value = parseInt(Number1.value) + parseInt(Number2.value)">
-                0 <input type="range" id="Number1" name="Number1" value="50"> 100 <br>
-                + <br>
-                <input type="number" id="Number2" name="Number2" value="50"> <br>
-                = <br>
-                <output name="Calculate" for="Number1 Number2"></output>
+            <form action="#" enctype="multipart/form-data">
+                <p><input type="color" name="myColor" value="#009DFF"></p>
+                <p><input type="date" name="myDate" max="2024-01-01" min="2023-01-01"></p>
+                <p><input type="email" name="myEmail"> </p>
+                <p><input type="number" name="myNumber" min="0" max="100" value="50" step="10"></p>
             </form>
         </section>
 
