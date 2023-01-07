@@ -1,8 +1,8 @@
-<html>
+<html lang="en-US">
 
 <head>
-    <title> lesson 59 </title>
-    <link rel="stylesheet" type="text/css" href="css2/style5_9.css" />
+    <title> lesson 60 </title>
+    <link rel="stylesheet" type="text/css" href="css2/style5_8.css" />
     <meta name="viewport" content="width:device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 
@@ -63,13 +63,21 @@
                 <h3>This is header of change class.</h3>
             </header>
 
-            <form action="#" method="post" id="myForm" autocomplete="on">
+            <form action="send.php" method="post" id="myForm" autocomplete="on">
                 <p>User name: <input type="text" id="userName" name="userName" autofocus></p>
                 <p>Your name: <input type="text" id="uName" name="uName"></p>
-                <p>Your email address: <input type="email" id="myEmail" name="myEmail"></p>
+                <p>Your email address: <input type="email" id="userEmail" name="userEmail" required></p>
+                <p><input type="image" name="Btn" id="Btn" alt="btnImg"></p>
+                <input list="languages" name="language">
+                <datalist id="languages">
+                    <option value="Javascript"></option>
+                    <option value="Java"></option>
+                </datalist>
+                <p><input type="number" name="interval" min="10" max="30" step="2"></p>   
                 <p> <input type="submit" id="submitButton" name="submitButton" value="Submit my answer"></p>
             </form>
-
+               
+            
             
         </section>
 
