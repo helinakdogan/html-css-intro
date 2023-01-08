@@ -1,7 +1,7 @@
 <html lang="en-US">
 
 <head>
-    <title> lesson 60 </title>
+    <title> lesson 61 </title>
     <link rel="stylesheet" type="text/css" href="css2/style5_8.css" />
     <meta name="viewport" content="width:device-width, initial-scale=1, shrink-to-fit=no">
 </head>
@@ -63,20 +63,29 @@
                 <h3>This is header of change class.</h3>
             </header>
 
-            <form action="send.php" method="post" id="myForm" autocomplete="on">
-                <p>User name: <input type="text" id="userName" name="userName" autofocus></p>
-                <p>Your name: <input type="text" id="uName" name="uName"></p>
-                <p>Your email address: <input type="email" id="userEmail" name="userEmail" required></p>
-                <p><input type="image" name="Btn" id="Btn" alt="btnImg"></p>
-                <input list="languages" name="language">
-                <datalist id="languages">
-                    <option value="Javascript"></option>
-                    <option value="Java"></option>
-                </datalist>
-                <p><input type="number" name="interval" min="10" max="30" step="2"></p>   
-                <p> <input type="submit" id="submitButton" name="submitButton" value="Submit my answer"></p>
-            </form>
-               
+            <canvas id="newCanvas" width="400" height="300" style="border: 3px solid rgb(71, 181, 189)"></canvas>
+            <script>
+                var myCanvas=document.querySelector("#newCanvas");
+                var content=myCanvas.getContext("2d");
+                content.fillStyle="#FF0000";
+                content.fillRect(25,35,64,64);
+                content.strokeStyle="#000000";
+                content.lineWidth="3";
+                content.strokeRect(25,35,64,64);
+
+                content.lineWidth="3";
+                content.strokeStyle="blue";
+                content.moveTo(150, 50);
+                content.lineTo(200,50);
+                content.stroke();
+
+                content.beginPath();
+                content.lineWidth="3";
+                content.strokeStyle="green";
+                content.moveTo(200, 100);
+                content.lineTo(200,10);
+                content.stroke();
+            </script>   
             
             
         </section>
