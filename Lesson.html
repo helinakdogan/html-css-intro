@@ -1,7 +1,7 @@
 <html lang="en-US">
 
 <head>
-    <title> lesson 61 </title>
+    <title> lesson 63 </title>
     <link rel="stylesheet" type="text/css" href="css2/style5_8.css" />
     <meta name="viewport" content="width:device-width, initial-scale=1, shrink-to-fit=no">
 </head>
@@ -67,24 +67,18 @@
             <script>
                 var myCanvas=document.querySelector("#newCanvas");
                 var content=myCanvas.getContext("2d");
-                content.fillStyle="#FF0000";
-                content.fillRect(25,35,64,64);
-                content.strokeStyle="#000000";
-                content.lineWidth="3";
-                content.strokeRect(25,35,64,64);
 
-                content.lineWidth="3";
-                content.strokeStyle="blue";
-                content.moveTo(150, 50);
-                content.lineTo(200,50);
-                content.stroke();
-
-                content.beginPath();
-                content.lineWidth="3";
+                content.lineWidth="4";
                 content.strokeStyle="green";
-                content.moveTo(200, 100);
-                content.lineTo(200,10);
+                content.arc(200,130,120,0.7*Math.PI,2*Math.PI,false);
                 content.stroke();
+
+                content.font="28px Arial";
+                content.fillStyle="white";
+                content.fillText("save green", 170, 128);
+                content.strokeStyle="green";
+                content.lineWidth="1";
+                content.strokeText("save green", 170, 128);
             </script>   
             
             
